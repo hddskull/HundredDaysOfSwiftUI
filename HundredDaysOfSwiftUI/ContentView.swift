@@ -7,10 +7,21 @@
 
 import SwiftUI
 
+struct Title: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+    }
+}
+
+
 struct ContentView: View {
+    @State private var isTextRed = false
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button("Turn button") {
+            isTextRed.toggle()
+        }
+        .foregroundColor(isTextRed ? .red : .blue)
     }
 }
 
