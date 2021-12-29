@@ -11,6 +11,7 @@
 		DFF1E0A1277B3021002F5CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF1E0A0277B3021002F5CC1 /* ContentView.swift */; };
 		DFF1E0A3277B3024002F5CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF1E0A2277B3024002F5CC1 /* Assets.xcassets */; };
 		DFF1E0A6277B3024002F5CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF1E0A5277B3024002F5CC1 /* Preview Assets.xcassets */; };
+		DFF1E0B2277C6DED002F5CC1 /* RockPaperScissorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF1E0B1277C6DED002F5CC1 /* RockPaperScissorsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DFF1E0A0277B3021002F5CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFF1E0A2277B3024002F5CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFF1E0A5277B3024002F5CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFF1E0B1277C6DED002F5CC1 /* RockPaperScissorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		DFF1E09D277B3021002F5CC1 /* HundredDaysOfSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				DFF1E0AC277C6D7D002F5CC1 /* project 3 */,
 				DFF1E09E277B3021002F5CC1 /* HundredDaysOfSwiftUIApp.swift */,
 				DFF1E0A0277B3021002F5CC1 /* ContentView.swift */,
 				DFF1E0A2277B3024002F5CC1 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				DFF1E0A5277B3024002F5CC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFF1E0AC277C6D7D002F5CC1 /* project 3 */ = {
+			isa = PBXGroup;
+			children = (
+				DFF1E0B1277C6DED002F5CC1 /* RockPaperScissorsView.swift */,
+			);
+			path = "project 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DFF1E0A1277B3021002F5CC1 /* ContentView.swift in Sources */,
+				DFF1E0B2277C6DED002F5CC1 /* RockPaperScissorsView.swift in Sources */,
 				DFF1E09F277B3021002F5CC1 /* HundredDaysOfSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
